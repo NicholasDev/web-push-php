@@ -1,5 +1,5 @@
 {
-  "name": "minishlink/web-push",
+  "name": "nicholasdev/web-push",
   "type": "library",
   "description": "Web Push library for PHP",
   "keywords": ["push", "notifications", "web", "WebPush", "Push API"],
@@ -18,13 +18,13 @@
     "test:syntax": "./vendor/bin/php-cs-fixer fix ./src --dry-run --stop-on-violation --using-cache=no"
   },
   "require": {
-    "php": "^7.2",
+    "php": ">=7.2",
     "ext-curl": "*",
     "ext-gmp": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
     "ext-openssl": "*",
-    "guzzlehttp/guzzle": "^6.2",
+    "guzzlehttp/guzzle": "^7.0.1|^6.2",
     "web-token/jwt-signature": "^2.0",
     "web-token/jwt-key-mgmt": "^2.0",
     "web-token/jwt-signature-algorithm-ecdsa": "^2.0",
